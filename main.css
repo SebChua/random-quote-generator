@@ -1,0 +1,55 @@
+/*Box and Text*/
+.main-box {
+	padding: 50px 50px 30px 50px;
+	margin: 150px 30% 50px 30%;
+	background-color: #fff;
+	border-radius: 10px;
+}
+
+#quote-text {
+	font-family: "Zilla Slab";
+	font-size: 20px;
+}
+
+#quote-author {
+	font-family: "Open Sans";
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+.colorElem {
+	transition: background-color 1.5s ease;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0.1s;
+}
+
+#appendix {
+	color: white;
+	font-family: "Zilla Slab";
+	font-size: 12px;
+	padding-top: 1%;
+}
+
+/*Buttons*/
+#button-change {
+	float: right;
+}
+
+.row {
+	padding-top: 30px;
+}
+
+.btn {
+	color: white;
+	transition: background-color 1.5s ease;
+}
+
+.btn:focus {
+	outline: none;
+	color: white;
+}
+
+.btn:hover {
+	color: white;
+}
+
